@@ -1,0 +1,147 @@
+.home {
+    padding: 0px 10px 100px;
+    background: linear-gradient(180deg, #10002b, #240046, #3c096c);
+    min-height: 100vh;
+    color: white;
+    animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.hero {
+    max-width: 600px;
+    margin: 80px auto 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    animation: fade-in 1s ease-in;
+}
+
+.hero h1 {
+    font-size: max(4vw, 36px);
+background: linear-gradient(to right, #9d4edd, #7b2cbf);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.hero p {
+    width: 75%;
+    color: #ccc;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.hero form {
+    padding: 8px;
+    width: 80%;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero input {
+    flex: 1;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.hero button {
+    border: none;
+    background: #7927ff;
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.hero button:hover {
+    background: #5a18c9;
+}
+
+.crypto-table {
+    max-width: 900px;
+    margin: auto;
+    background: linear-gradient(rgba(84, 3, 255, 0.1), rgba(105, 2, 153, 0.1));
+    border-radius: 16px;
+    overflow: hidden;
+    animation: fade-in 1s ease-in;
+}
+
+.table-layout {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+    padding: 15px 20px;
+    align-items: center;
+    border-bottom: 1px solid #3c3c3c;
+    transition: background 0.2s ease;
+}
+
+.table-layout:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.market-cap {
+    text-align: right;
+}
+
+.table-layout:last-child {
+    border: none;
+}
+
+.table-layout div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.table-layout div img {
+    width: 35px;
+}
+
+.table-layout .green {
+    color: #00d515;
+    text-align: center;
+}
+
+.table-layout .red {
+    color: #d50000;
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .table-layout {
+        grid-template-columns: 0.5fr 3fr 1fr 1fr;
+    }
+    .market-cap {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .table-layout div img {
+        width: 25px;
+    }
+    .table-layout {
+        font-size: 13px;
+    }
+    .hero form input {
+        width: 100px;
+    }
+}

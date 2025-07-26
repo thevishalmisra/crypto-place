@@ -1,0 +1,104 @@
+/* Spinner (Loading) */
+.spinner {
+  display: grid;
+  place-items: center;
+  min-height: 80vh;
+}
+
+.spin {
+  width: 65px;
+  height: 65px;
+  border: 5px solid #bdbdbd;
+  border-top-color: #4500c6;
+  border-radius: 50%;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Page Container */
+.coin-page {
+  background: linear-gradient(to bottom, #0c0824, #1e153b);
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+}
+
+/* Coin Heading */
+.coin-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Chart Styling */
+.coin-chart-container {
+  max-width: 650px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* Info Table */
+.coin-info {
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.coin-info table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  font-size: 18px;
+}
+
+.coin-info td {
+  text-align: left;
+  padding: 12px 10px;
+  border-bottom: 1px solid #5f5d5f;
+}
+
+.coin-info td:last-child {
+  text-align: right;
+  font-weight: 300;
+}
+
+/* Optional: Responsive tweaks */
+@media (max-width: 600px) {
+  .coin-title {
+    font-size: 28px;
+  }
+
+  .coin-chart-container {
+    padding: 10px;
+  }
+
+  .coin-info table {
+    font-size: 16px;
+  }
+}
+.coin-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.coin-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.coin-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
