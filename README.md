@@ -1,16 +1,16 @@
-# 💰 Crypto Place
+# 💰 CryptoPlace
 
 A sleek and responsive cryptocurrency market tracker built using **React + Vite**. This app displays real-time data for various coins, including market cap, volume, price changes, and more — all in a clean, fast-loading UI.
 
 ---
 
 ## 🚀 Features
-
+- 📈 Support the real-time coin detail page with charts
+- 🪙 Support currency conversion (USD, INR, etc.)
 - 📊 Live cryptocurrency market data
 - 🔍 Coin search and filter functionality
-- ⚡ Fast performance with Vite bundler
+- ⚡ Made with Coingecko API
 - 🎨 Styled with Tailwind CSS
-- 🌓 Dark/light mode (optional enhancement)
 - 📱 Fully responsive for mobile and desktop
 
 ---
