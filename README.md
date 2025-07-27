@@ -1,12 +1,54 @@
-# React + Vite
+# 💰 Crypto Place
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive cryptocurrency market tracker built using **React + Vite**. This app displays real-time data for various coins, including market cap, volume, price changes, and more — all in a clean, fast-loading UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📊 Live cryptocurrency market data
+- 🔍 Coin search and filter functionality
+- ⚡ Fast performance with Vite bundler
+- 🎨 Styled with Tailwind CSS
+- 🌓 Dark/light mode (optional enhancement)
+- 📱 Fully responsive for mobile and desktop
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React** (with hooks)
+- **Vite** (blazing fast development server)
+- **Tailwind CSS** (utility-first styling)
+- **JavaScript**
+- **CoinGecko / other crypto API** *(Add name here if applicable)*
+
+---
+
+## 📸 Screenshots
+
+
+
+---
+
+## 🌐 Live Demo
+
+Coming soon / Deployed at: 
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/thevishalmisra/crypto-place
+
+# Navigate into the directory
+cd crypto-place
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
