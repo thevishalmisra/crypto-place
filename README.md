@@ -52,3 +52,6 @@ npm install
 # Start the development server
 npm run dev
 
+📄 License
+This project is open-source and free to use.
+
